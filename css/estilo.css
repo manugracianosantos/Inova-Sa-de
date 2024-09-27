@@ -75,6 +75,79 @@ header {
 
 
 
+.container {
+    background-color: aliceblue;
+    display: flex;
+}
+.main-right-column {
+    background-color: red;
+    width:400px;
+    height: 500px;
+    border: 1px solid white;
+}
+.main-center-column {
+    /*background-color: black;*/
+    border: 1px solid white;
+    width: 340px;
+    height: 500px;
+}
+.main-left-column {
+    background-color: yellow;
+    width: 650px;
+    height: 500px;
+    border: 1px solid white;
+}
+
+.main-localizacao{
+    margin-top: 20px;
+    border-radius: 10%;
+    border: 8px solid #44a1a0;
+    margin: 20px auto; /* Centraliza horizontalmente */
+}
+
+.main-button {
+    background-color: #44a1a0;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
