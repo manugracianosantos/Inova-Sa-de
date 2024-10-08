@@ -1,80 +1,174 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slider-theme.css" />
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/script.js"></script>
+
+
     <title>Tela de farmácia</title>
 </head>
 <body>
-    <header>
-        <nav class="nav-bar">
-            <div class="menu-icon"> 
-                <button> <img class="icon" src="images/menu-white-30.png" alt="Ícone do menu"></button>
+    <div class="container">
+        <header>
+            <nav class="nav-bar">
+                <div class="menu-icon"> 
+                    <button> <img class="icon" src="images/menu-white-30.png" alt="Ícone do menu"></button>
+                </div>
+
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="" class="nav-link"> Home </a></li>
+                        <li class="nav-item"><a href="" class="nav-link"> Sobre nós </a></li>
+                        <li class="nav-item"><a href="" class="nav-link"> Serviços </a></li>
+                    </ul>
+                </div>
+
+                <div class="search-button">
+                    <img src="images/lupa-20.png" alt="Pesquisar" class="search-icon">
+                    <input type="text" class="search-input" placeholder="Pesquisar...">
+                    <img src="images/xis-20.png" alt="Limpar" class="clear-icon">
+                </div>
+            </nav>
+        </header>
+
+        
+
+        <main>
+            <div class="main-container">  
+                <div class="main-left-column">
+                    <p class="main-txt-2"> <strong>Farmácias próximas</strong> </p> 
+                    <div class="nearby-pharmacies">
+                        <div class="pharmacies">
+                            <p><strong>FARMÁCIA SEMPREVC</strong></p>
+                            <p>Rua xxxxxx xxx xxx, xx</p>
+                        </div>
+                        <div class="pharmacies">
+                            <p><strong>DROGASILVA</strong></p>
+                            <p>Rua xxxxxx xxx xxx, xx</p>
+                        </div>
+                        <div class="pharmacies">
+                            <p><strong>FARMÁCIA AMARELA</strong></p>
+                            <p>Rua xxxxxx xxx xxx, xx</p>
+                        </div>
+                        <div class="pharmacies">
+                            <p><strong>FARMÁCIA GIRASOL</strong></p>
+                            <p>Rua xxxxxx xxx xxx, xx</p>
+                        </div>
+                        <div class="pharmacies">
+                            <p><strong>DROGALISIA</strong></p>
+                            <p>Rua xxxxxx xxx xxx, xx</p>
+                        </div>
+                        <a href="#" class="ver-mais">ver mais...</a>
+                    </div>
+                </div>
+                <div class="main-center-column">
+                    <div class="main-elements"> 
+                        <div class="part-one"> 
+                            <p class="main-txt"> <strong>Selecione sua localização no mapa</strong> </p> 
+                            <iframe class="main-localizacao" src="https://maps.google.com/maps?q=São%20Paulo&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"  width="230" height="235" ></iframe> 
+                        </div>
+
+                        <div class="main-buttons"> 
+                            <div class="frete"> <a href="/index.html" class="button">FRETE GRÁTIS</a> </div>
+                            <div class="cupom"> <a href="/index.html" class="button">SEUS CUPONS</a> </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="main-right-column"> 
+                    <h1> <strong>MELHORES PREÇOS</strong> </h1>
+
+                    <div class="slider js-slider">
+                        <div class="card">
+                            <div class="like"></div>
+                            <img class="img-card" src="images/icons-seusremedios-150.png" alt="Dipirona">
+                            <h2 class="title-card">Dipirona</h2>
+                            <div class="pharmacy-product"></div>
+                            <div class="price-card">
+                                <h3>R$5,00</h3>
+                            </div>
+                            <a href="#" class="see-products"> Ver produto </a>
+                        </div>
+                        <div class="card">
+                            <div class="like"></div>
+                            <img class="img-card" src="images/icons-seusremedios-150.png" alt="Dipirona">
+                            <h2 class="title-card">Dipirona</h2>
+                            <div class="pharmacy-product"></div>
+                            <div class="price-card">
+                                <h3>R$5,00</h3>
+                            </div>
+                            <a href="#" class="see-products"> Ver produto </a>
+                        </div>
+                        <div class="card">
+                            <div class="like"></div>
+                            <img class="img-card" src="images/icons-seusremedios-150.png" alt="Dipirona">
+                            <h2 class="title-card">Dipirona</h2>
+                            <div class="pharmacy-product"></div>
+                            <div class="price-card">
+                                <h3>R$5,00</h3>
+                            </div>
+                            <a href="#" class="see-products"> Ver produto </a>
+                        </div>
+                        <div class="card">
+                            <div class="like"></div>
+                            <img class="img-card" src="images/icons-seusremedios-150.png" alt="Dipirona">
+                            <h2 class="title-card">Dipirona</h2>
+                            <div class="pharmacy-product"></div>
+                            <div class="price-card">
+                                <h3>R$5,00</h3>
+                            </div>
+                            <a href="#" class="see-products"> Ver produto </a>
+                        </div>
+                        <div class="card">
+                            <div class="like"></div>
+                            <img class="img-card" src="images/icons-seusremedios-150.png" alt="Dipirona">
+                            <h2 class="title-card">Dipirona</h2>
+                            <div class="pharmacy-product"></div>
+                            <div class="price-card">
+                                <h3> R$5,00</h3>
+                            </div>
+                            
+                            <a href="#" class="see-products"> Ver produto </a>
+                        </div>
+                    </div>
+
+                    melhores preços de remédios
+                    ditalizar receitas
+                    históricos de compras
+                    avaliações das fármacias
+                </div>
             </div>
+        </main>
 
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="" class="nav-link"> Home </a></li>
-                    <li class="nav-item"><a href="" class="nav-link"> Sobre nós </a></li>
-                    <li class="nav-item"><a href="" class="nav-link"> Serviços </a></li>
-                </ul>
+
+        
+        <footer>
+            <div class="foot-bar">
+                <div class="foot-list">
+                    <ul>
+                        <img src="images/logosite.png" alt="Logo do site" class="photos-links">
+                        <li class="foot-item"><a href="" class="foot-link">Política privacidade</a></li>
+                        <li class="foot-item"><a href="" class="foot-link">Termos de uso</a></li>
+
+                        <div class="vertical-line"></div>
+
+                        <li class="foot-item"><p class="foot-txt"> CONTATO: </p></li>
+                        <li class="foot-item"><p class="foot-txt"> Redes sociais: </p></li>
+                        <img src="images/linkedin.png" class="photos-links"> <a href="" alt="Ícone do nosso Linkedin" > </a>
+                        <img src="images/facebook.png" class="photos-links"> <a href="" alt="Ícone do nosso Facebook" > </a>
+                    </ul>
             </div>
-
-            <div class="search-button">
-                <img src="images/lupa-20.png" alt="Pesquisar" class="search-icon">
-                <input type="text" class="search-input" placeholder="Pesquisar...">
-                <img src="images/xis-20.png" alt="Limpar" class="clear-icon">
             </div>
-        </nav>
-    </header>
-    <main class="main-container">
-        <div class="main-right-column">
-
-            FARMÁCIAS próximas
-            E AVISO
-        </div>
-        <div class="main-center-column">
-        <iframe class="main-localizacao" src="https://maps.google.com/maps?q=São%20Paulo&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"  width="245" height="250" ></iframe>
-
-        <div class="main-button">
-            <button class="free-shipping">FRETE GRÁTIS</button>
-            <button class="coupon">CUPOM 10%</button>
-        </div>
-            localzação no mapa
-            cupom10%
-            fretegrátis
-            E AVISO 
-        </div>
-
-        <div class="main-left-column">
-            melhores preços de remédios
-            ditalizar receitas
-            históricos de compras
-            avaliações das fármacias
-        </div>
-    </main>
-
+        </footer>
+    </div>
     
-    <footer>
-        <div class="foot-bar">
-            <div class="foot-list">
-                <ul>
-                    <img src="images/logosite.png" alt="Logo do site" class="photos-links">
-                    <li class="foot-item"><a href="" class="foot-link">Política privacidade</a></li>
-                    <li class="foot-item"><a href="" class="foot-link">Termos de uso</a></li>
-
-                    <div class="vertical-line"></div>
-
-                    <li class="foot-item"><p class="foot-txt"> CONTATO: </p></li>
-                    <li class="foot-item"><p class="foot-txt"> Redes sociais: </p></li>
-                    <img src="images/linkedin.png" class="photos-links"> <a href="" alt="Ícone do nosso Linkedin" > </a>
-                    <img src="images/facebook.png" class="photos-links"> <a href="" alt="Ícone do nosso Facebook" > </a>
-                </ul>
-        </div>
-        </div>
-    </footer>
-
-
+    <script src="slick/jquery.js"> </script>
+    <script src="slick/jquery-migrate.js"> </script>
+    <script src="slick/slick.js"></script>
 </body>
 </html>

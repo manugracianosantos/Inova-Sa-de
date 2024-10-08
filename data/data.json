@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Paracetamol",
+        "price": 2.49,
+        "pharmacy": "DROGASIL",
+        "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/1-1.webp"
+    },
+    {
+        "id": 2,
+        "name": "Dipirona",
+        "price": 19.99,
+        "pharmacy": "DROGASIL",
+        "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/2-1.webp"
+    },
+    {
+        "id": 3,
+        "name": "Nimesulida",
+        "price": 2276.10,
+        "pharmacy": "DROGASIL",
+        "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/3-1.webp"
+    },
+    {
+        "id": 4,
+        "name": "Bepantol",
+        "price": 899.96,
+        "pharmacy": "DROGASIL",
+        "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/4-1.webp"
+    },
+    {
+        "id": 5,
+        "name": "Dipirona",
+        "price": 1871.10,
+        "pharmacy": "DROGASIL",
+        "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/5-1.webp"
+    },
+    {
+        "id": 6,
+        "name": "Xarope",
+        "price": 1028.99,
+        "pharmacy": "DROGASIL",
+        "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/6-1.webp"
+    },
+    {
+        "id": 7,
+        "name": "Pastilha",
+        "price": 149.99,
+        "pharmacy": "DROGASIL",
+        "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/7-1.webp"
+    },
+    {
+        "id": 8,
+        "name": "Band-aid",
+        "price": 888.99,
+        "pharmacy": "DROGASIL",
+        "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/8-1.webp"
+    },
+    {
+        "id": 9,
+        "name": "Ozempic",
+        "price": 975.92,
+        "pharmacy": "DROGASIL",
+        "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/9-1.webp"
+    },
+    {
+        "id": 10,
+        "name": "Pilula",
+        "price": 77.90,
+        "pharmacy": "DROGASIL",
+        "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/10-1.webp"
+    }
+]

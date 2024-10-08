@@ -1,11 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /*Importando fonte Poppins Medium 500*/ 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap'); /*Importando fonte DM Serif Display */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); /*Importando fonte Open Sans*/
+*{
+    padding: 0;
+    margin: 0;
 
+    scroll-behavior: smooth;
+    /*font-family: 'Poppins Medium', Arial;*/
+    /*font-family: 'DM Serif Display', sans-serif;*/
+}
+/*body {
+    padding: 2rem 0;
+    FONT-FAMILY: 'POPPIN MEDIUM'; NAO PEGAAA
+}*/
 
 header {
     background-color:#17686D;
-    font-size: 'Poppins Medium';
+    font-family: 'Poppins Medium', 'Arial';
 }
 
 .nav-bar {
@@ -53,15 +65,212 @@ header {
     cursor: pointer;
 }
 
-.main-container{
+
+
+.main-container {
     display: flex;
-    flex-direction: row;
 }
+
+
+.main-left-column {
+    background-color: yellow;
+    width: 30vw;
+    height: 65vh;
+
+}
+.nearby-pharmacies {
+    margin-top: 3vh;
+    border: 2px solid #c8c8c8;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    width: 305px;
+    margin-left: 35px;
+    font-family: Arial, sans-serif;
+    max-height: 370px; /* Altura máxima da seção */
+    overflow-y: auto; /* Adiciona barra de rolagem vertical */
+}
+.nearby-pharmacies h2 {
+    font-size: 18px;
+    color: #138f81;
+    margin-bottom: 10px;
+}
+.pharmacies {
+    background-color: #d9dadb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.pharmacies p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+.ver-mais {
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    color: #138f81;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.ver-mais:hover {
+    text-decoration: underline;
+}
+
+
+.main-center-column {
+    background-color: blue;
+    width: 20vw;
+    height: 65vh;  
+    /*display: grid;
+    justify-items: center;  Centraliza horizontalmente */
+
+}
+.main-localizacao {
+    margin-top: 3vh;
+    margin-left: 2vh;
+    border-radius: 5%;
+    border: 5px solid #44a1a0;
+}
+p.main-txt {
+    margin-top: 3vh;
+    color: #17686d;
+    font-family: 'Poppins Medium', 'Arial';
+    text-align: center;
+}
+p.main-txt-2 {
+    margin-top: 3vh;
+    text-align: center;
+    color: #17686d;
+    font-family: 'Poppins Medium', 'Arial';
+}
+
+
+
+.button {
+    display: inline-block; /* Permite usar padding e margin */
+    padding: 10px 65px; /* Espaçamento interno */
+    background-color: #44a1a0; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+    font-family: 'Open Sans', 'Arial';
+}
+.button:hover {
+    background-color: #367a78; /* Cor ao passar o mouse */
+}
+
+.main-buttons {
+    margin: 20px 15px;
+}
+
+.cupom {
+    margin-top: 1vh;
+}
+
+
+.main-right-column {
+    /*background-color: red;*/
+    color: black;
+    font-size: 16px;
+    width: 50vw;
+    height: 100vh;
+    padding: 1rem 0;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    min-height: 100vh;/*?*/
+
+}
+h1{
+    color: #17686d;
+    font-weight: bolder;     /*- espessura*/
+    font-size: 10;
+    position: relative; /*?*/
+    font-family: 'Poppins Medium', 'Arial';
+    margin-bottom: 0.5rem;
+    text-align: center;
+
+}
+.slider {
+    display: flex;
+}
+
+.card {
+    background-color: #17686d;
+    color: rgb(223, 223, 223);
+    border-radius: 5px;
+    margin:0.5rem;
+    padding: 1rem;
+    width: 100px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*.like {
+    background-image: url(https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/75c124c5a1b82f9168513e17dfae83f4fc4d0857/slider-produtos-simples/assets/images/ic-heart.png); /*Só da pra usar url???*//*
+    background-size: 20px; 
+    height: 20px;
+    width: 20px; PQ UM A GENTE COLOCA A FOTO PELO HTML E OUTRO PELO CSS
+    display: flex;
+    place-self: flex-end;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+.like:hover {
+    background-image: url(https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/75c124c5a1b82f9168513e17dfae83f4fc4d0857/slider-produtos-simples/assets/images/ic-heart-red.png);
+}*/
+.img-card {
+    width:100% /*pq????*/
+}
+.title-card{
+    font-size: 1rem;
+    font-family: 'Poppins Medium', 'Arial';
+}
+.price-card {
+    font-size: 0.8rem;
+}
+
+.see-products {
+    margin-top: 8px;
+    display: inline-block; /* Permite usar padding e margin */
+    font-size: 0.9rem;
+    border:2px solid #367a78; 
+    color: white ; /* Cor do texto */
+    border-radius: 5px;
+    padding: 0.2rem;
+    text-decoration: none; /*    Remove o sublinhado */
+    transition: background-color 0.3s; /*   Transição suave ao passar o mouse */
+    font-family: 'DM Serif Display', 'Arial';
+}
+.see-products:hover{
+    background-color:#138f81;
+}
+/*o problema de usar botões com tamanho fixo é que se seu sistema for traduzido o botão nao vai se adaptar ao tamanho do texto */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer {
     background-color: #17686D;
-    /*font-family: ;*/
 }
 
 .foot-bar {
