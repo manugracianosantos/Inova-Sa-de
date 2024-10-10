@@ -14,6 +14,11 @@
     padding: 2rem 0;
     FONT-FAMILY: 'POPPIN MEDIUM'; NAO PEGAAA
 }*/
+ /*body {
+   background-color: orange;
+
+    
+}*/
 
 header {
     background-color:#17686D;
@@ -70,10 +75,29 @@ header {
 .main-container {
     display: flex;
 }
-
+.main-aviso {
+    position: absolute;
+    bottom: 0;
+    margin: 100px 0px;
+    height: 15%;
+    width: 51%;
+    text-align: center;
+    /*background-color: purple;*/
+    overflow: hidden !important;
+}
+.caixadetexto {
+    position: absolute;
+    color: #f4f4f4;
+    font-family: 'Poppins Medium', 'Arial';
+    background-color: #17686d ;
+    margin-top: 4%;
+    margin-left: 6%;
+    width: 44vw;
+    padding: 11px;
+}
 
 .main-left-column {
-    background-color: yellow;
+    /*background-color: yellow;*/
     width: 30vw;
     height: 65vh;
 
@@ -117,11 +141,9 @@ header {
 .ver-mais:hover {
     text-decoration: underline;
 }
-
-
 .main-center-column {
-    background-color: blue;
-    width: 20vw;
+    /*background-color: blue;*/
+    width: 21vw;
     height: 65vh;  
     /*display: grid;
     justify-items: center;  Centraliza horizontalmente */
@@ -145,6 +167,7 @@ p.main-txt-2 {
     color: #17686d;
     font-family: 'Poppins Medium', 'Arial';
 }
+
 
 
 
@@ -172,29 +195,30 @@ p.main-txt-2 {
 
 .main-right-column {
     /*background-color: red;*/
+    overflow: hidden; /*nn ultrapassar*/
     color: black;
     font-size: 16px;
-    width: 50vw;
-    height: 100vh;
+    width: 48vw;
+    height: 70vh;
     padding: 1rem 0;
     /*display: flex;
     justify-content: center;
     align-items: center;*/
-    min-height: 100vh;/*?*/
-
+    min-height: 82vh;/*?*/
 }
+
 h1{
     color: #17686d;
     font-weight: bolder;     /*- espessura*/
     font-size: 10;
     position: relative; /*?*/
     font-family: 'Poppins Medium', 'Arial';
-    margin-bottom: 0.5rem;
     text-align: center;
 
 }
 .slider {
     display: flex;
+
 }
 
 .card {
@@ -205,25 +229,12 @@ h1{
     padding: 1rem;
     width: 100px;
     max-width: 300px;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     align-items: center;
 
 }
 
-/*.like {
-    background-image: url(https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/75c124c5a1b82f9168513e17dfae83f4fc4d0857/slider-produtos-simples/assets/images/ic-heart.png); /*Só da pra usar url???*//*
-    background-size: 20px; 
-    height: 20px;
-    width: 20px; PQ UM A GENTE COLOCA A FOTO PELO HTML E OUTRO PELO CSS
-    display: flex;
-    place-self: flex-end;
-    transition: 0.3s all ease;
-    cursor: pointer;
-}
-.like:hover {
-    background-image: url(https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/75c124c5a1b82f9168513e17dfae83f4fc4d0857/slider-produtos-simples/assets/images/ic-heart-red.png);
-}*/
 .img-card {
     width:100% /*pq????*/
 }
@@ -235,21 +246,73 @@ h1{
     font-size: 0.8rem;
 }
 
-.see-products {
-    margin-top: 8px;
-    display: inline-block; /* Permite usar padding e margin */
-    font-size: 0.9rem;
-    border:2px solid #367a78; 
-    color: white ; /* Cor do texto */
-    border-radius: 5px;
-    padding: 0.2rem;
-    text-decoration: none; /*    Remove o sublinhado */
-    transition: background-color 0.3s; /*   Transição suave ao passar o mouse */
-    font-family: 'DM Serif Display', 'Arial';
+.card-links {
+    text-decoration: none;
+    color: #d9dcd6;
+}
+.card-links:hover {
+    text-decoration: underline;
 }
 .see-products:hover{
     background-color:#138f81;
 }
+.slider2 {
+    display: flex;
+}
+.card2 {
+    width: 145px;
+    height: 175px;
+    padding: 0.5rem;
+    border: 2px solid #0d5c63;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+.img-card-farmacia {
+    margin-top: 5px;
+    width: 110px;
+    height: 110px;
+}
+.localization {
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+}
+.txt-localization {
+    font-size: 15px;
+}
+.rating {
+    display: flex;
+    
+}
+.icons {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.main-buttons-rigthcolumn {
+    text-align: center;
+}
+.button2{
+    display: inline-block;
+    background-color: #0d5c63;
+    padding: 5px 20px;
+    color:#f4f4f4;
+    text-decoration: none;
+    margin: 3px;
+    width: 91%;
+    text-align: center;
+
+}
+.button2:hover {
+    background-color: #138f81;
+}
+
+
+
 /*o problema de usar botões com tamanho fixo é que se seu sistema for traduzido o botão nao vai se adaptar ao tamanho do texto */
 
 
@@ -277,6 +340,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 1px 50px;
+    width: ;
 }
 
 .foot-list {
