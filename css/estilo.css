@@ -52,7 +52,16 @@ header {
     color: #fff;
     font-weight: 150;
 }
-
+.search-button {
+    display: flex;
+    align-items: center;
+}
+.xis {
+    margin-top: 5px;
+}
+.lupa {
+    margin-top: 2px;
+}
 .search-button input{
     border: none;
     background-color: aliceblue;
